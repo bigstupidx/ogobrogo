@@ -1,0 +1,17 @@
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/obj/Debug/Assembly-CSharp.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/UnityEngine.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/UnityEditor.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Mono.Cecil.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Unity.DataContract.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/ogobrogo/Temp/bin/Debug/Mono.Cecil.Mdb.dll
