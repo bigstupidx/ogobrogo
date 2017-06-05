@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
+using System;
 
 public class Controller2D : RaycastController
 {
 	public Animator animator;
+	public SpriteRenderer spriteRenderer;
     public float fallingThroughPlatformResetTimer = 0.1f;
     private float maxClimbAngle = 80f;
     private float maxDescendAngle = 80f;
@@ -32,29 +34,14 @@ public class Controller2D : RaycastController
         collisions.moveAmountOld = moveAmount;
         playerInput = input;
 
+		animator.SetFloat("speed", Math.Abs(moveAmount.x));
+
         if (moveAmount.x != 0)
         {
             collisions.faceDir = (int)Mathf.Sign(moveAmount.x);
 
-			if((collisions.faceDir < 0 && transform.localScale.x >= 0) || (collisions.faceDir >= 0 && transform.localScale.x < 0))
-			{
-				transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-			}
-
-			if(animator.GetCurrentAnimatorStateInfo(0).IsName("Dude Walk") && Mathf.Abs(moveAmount.x) > 2)
-			{
-				animator.SetTrigger("Run");
-			}
-			else
-			{
-				animator.SetTrigger("Walk");
-			}
-				
+			spriteRenderer.flipX = collisions.faceDir < 0; 
         }
-		else if(animator.GetCurrentAnimatorStateInfo(0).IsName("Dude Walk") || animator.GetCurrentAnimatorStateInfo(0).IsName("Dude Run"))
-		{
-			animator.SetTrigger("Idle");
-		}
 
         if (moveAmount.y < 0)
         {
