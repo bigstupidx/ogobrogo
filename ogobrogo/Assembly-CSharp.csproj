@@ -46,9 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\OgoBroGo\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\OgoBroGo\Scripts\CollectableItem.cs" />
      <Compile Include="Assets\OgoBroGo\Scripts\Controller2D.cs" />
      <Compile Include="Assets\OgoBroGo\Scripts\PlatformController.cs" />
      <Compile Include="Assets\OgoBroGo\Scripts\Player.cs" />
+     <Compile Include="Assets\OgoBroGo\Scripts\PlayerCollisionTrigger.cs" />
      <Compile Include="Assets\OgoBroGo\Scripts\PlayerInput.cs" />
      <Compile Include="Assets\OgoBroGo\Scripts\RaycastController.cs" />
      <Compile Include="Assets\OgoBroGo\Scripts\SceneLoader.cs" />
