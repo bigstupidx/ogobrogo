@@ -1,19 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
+<<<<<<< .merge_file_rAfXaa
 SceneSettings:
   m_ObjectHideFlags: 0
   m_PVSData: 
   m_PVSObjectsArray: []
   m_PVSPortalsArray: []
+=======
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+>>>>>>> .merge_file_Y4FlJ5
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
+<<<<<<< .merge_file_rAfXaa
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 7
+=======
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+>>>>>>> .merge_file_Y4FlJ5
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -25,6 +40,10 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+>>>>>>> .merge_file_Y4FlJ5
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -41,7 +60,11 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 7
+=======
+  serializedVersion: 9
+>>>>>>> .merge_file_Y4FlJ5
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -53,7 +76,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
+<<<<<<< .merge_file_rAfXaa
     serializedVersion: 4
+=======
+    serializedVersion: 8
+>>>>>>> .merge_file_Y4FlJ5
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -66,39 +93,82 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+<<<<<<< .merge_file_rAfXaa
     m_DirectLightInLightProbes: 1
+=======
+>>>>>>> .merge_file_Y4FlJ5
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
+<<<<<<< .merge_file_rAfXaa
   m_LightingDataAsset: {fileID: 0}
   m_RuntimeCPUUsage: 25
+=======
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_ShadowMaskMode: 2
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
+<<<<<<< .merge_file_rAfXaa
+=======
+    agentTypeID: 0
+>>>>>>> .merge_file_Y4FlJ5
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
+<<<<<<< .merge_file_rAfXaa
     accuratePlacement: 0
     minRegionArea: 2
     cellSize: 0.16666667
     manualCellSize: 0
+=======
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_NavMeshData: {fileID: 0}
 --- !u!1 &28131571
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 28131572}
   - 212: {fileID: 28131573}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 28131572}
+  - component: {fileID: 28131573}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_8_Shrubs (1)
   m_TagString: Untagged
@@ -115,10 +185,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.36, y: 0.008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.23076925}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1468333785}
   m_RootOrder: 3
+=======
+  m_Children: []
+  m_Father: {fileID: 1468333785}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &28131573
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -133,7 +210,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -141,26 +224,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1759624571
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90d49ce78b9634918b2119d34f10fb7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &136429050
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 136429051}
   - 212: {fileID: 136429052}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 136429051}
+  - component: {fileID: 136429052}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_1_horiz_cloud (1)
   m_TagString: Untagged
@@ -177,10 +282,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 16.76, y: 3.6, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 6
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &136429052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -195,7 +307,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -203,25 +321,46 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 98502eae4f03a4a30af5f74dcfbd8c46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &154678635
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 154678636}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 154678636}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Collectables
   m_TagString: Untagged
@@ -238,21 +377,36 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.23, y: -0.23, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> .merge_file_Y4FlJ5
   m_Children:
   - {fileID: 2129993161}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &249763941
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 249763942}
   - 212: {fileID: 249763944}
   - 61: {fileID: 249763943}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 249763942}
+  - component: {fileID: 249763944}
+  - component: {fileID: 249763943}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 9
   m_Name: Bg-street
   m_TagString: Untagged
@@ -269,10 +423,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.37, y: 1.73, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 13}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 824389944}
   m_RootOrder: 0
+=======
+  m_Children: []
+  m_Father: {fileID: 824389944}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!61 &249763943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -284,9 +445,26 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< .merge_file_rAfXaa
   m_Offset: {x: 0, y: -1.5801992}
   serializedVersion: 2
   m_Size: {x: 6.4000006, y: 0.42960215}
+=======
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.5801992}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.4, y: 3.59}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.4000006, y: 0.42960215}
+  m_EdgeRadius: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &249763944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -301,7 +479,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -309,26 +493,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2120331297
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 4a8203e32bebc4fa7aebe729193d9256, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &345845187
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 345845188}
   - 212: {fileID: 345845189}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 345845188}
+  - component: {fileID: 345845189}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_1_horiz_cloud
   m_TagString: Untagged
@@ -345,10 +551,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.4, y: 3.2, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 2
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &345845189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -363,7 +576,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -371,22 +590,38 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 98502eae4f03a4a30af5f74dcfbd8c46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &425759326
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 425759331}
@@ -395,6 +630,16 @@ GameObject:
   - 124: {fileID: 425759328}
   - 81: {fileID: 425759327}
   - 114: {fileID: 425759332}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 425759331}
+  - component: {fileID: 425759330}
+  - component: {fileID: 425759329}
+  - component: {fileID: 425759328}
+  - component: {fileID: 425759327}
+  - component: {fileID: 425759332}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -453,6 +698,11 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
@@ -466,10 +716,17 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+=======
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!114 &425759332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,10 +749,17 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 437520363}
   - 212: {fileID: 437520364}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 437520363}
+  - component: {fileID: 437520364}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_2_far_clouds (1)
   m_TagString: Untagged
@@ -512,10 +776,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 44.81, y: 2.74, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 10
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &437520364
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -530,7 +801,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -538,26 +815,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 7eb063fc74ed44d308e64c3ba5a1a498, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &613991871
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 613991872}
   - 212: {fileID: 613991873}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 613991872}
+  - component: {fileID: 613991873}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_2_far_clouds
   m_TagString: Untagged
@@ -574,10 +873,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.43, y: 2.7, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 7
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &613991873
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -592,7 +898,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -600,26 +912,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 7eb063fc74ed44d308e64c3ba5a1a498, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &655427479
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 655427480}
   - 212: {fileID: 655427481}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 655427480}
+  - component: {fileID: 655427481}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_6_HippoBuilding
   m_TagString: Untagged
@@ -636,10 +970,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0033334098, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.23076925}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1468333785}
   m_RootOrder: 0
+=======
+  m_Children: []
+  m_Father: {fileID: 1468333785}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &655427481
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -654,7 +995,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -662,26 +1009,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1759624571
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 22a985899d4f54a72a24e199097bc331, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &757564700
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 757564701}
   - 212: {fileID: 757564702}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 757564701}
+  - component: {fileID: 757564702}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_5_cloud1
   m_TagString: Untagged
@@ -698,10 +1067,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.79, y: 1.9, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 0
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &757564702
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -716,7 +1092,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -724,26 +1106,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: dfd7f7cca270d4f23868e4178799d108, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &780004417
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 780004418}
   - 212: {fileID: 780004419}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 780004418}
+  - component: {fileID: 780004419}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_3_mountains
   m_TagString: Untagged
@@ -760,10 +1164,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.42, y: 2.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 4
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &780004419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -778,7 +1189,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -786,25 +1203,46 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -8
   m_Sprite: {fileID: 21300000, guid: 061c9b04b418841978e4993cc7c60b45, type: 3}
   m_Color: {r: 0.5764706, g: 0.8509804, b: 0.85490197, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &824389943
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 824389944}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 824389944}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -821,7 +1259,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.23, y: -0.12, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> .merge_file_Y4FlJ5
   m_Children:
   - {fileID: 249763942}
   - {fileID: 1005567604}
@@ -830,15 +1271,26 @@ Transform:
   - {fileID: 1822171464}
   m_Father: {fileID: 0}
   m_RootOrder: 3
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &850215602
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 850215604}
   - 212: {fileID: 850215603}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 850215604}
+  - component: {fileID: 850215603}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: bachelorette-party
   m_TagString: Untagged
@@ -860,7 +1312,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -868,17 +1326,32 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f30759dbbc4e743d9b8844503d784fd7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!4 &850215604
 Transform:
   m_ObjectHideFlags: 0
@@ -888,19 +1361,33 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.939395, y: -1.5999346, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+=======
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &911610854
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 911610855}
   - 212: {fileID: 911610856}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 911610855}
+  - component: {fileID: 911610856}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_3_mountains (3)
   m_TagString: Untagged
@@ -917,10 +1404,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 55.15, y: 2.14, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 15
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &911610856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -935,7 +1429,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -943,26 +1443,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -8
   m_Sprite: {fileID: 21300000, guid: 061c9b04b418841978e4993cc7c60b45, type: 3}
   m_Color: {r: 0.5581747, g: 0.85294104, b: 0.85294116, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &952887771
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 952887772}
   - 212: {fileID: 952887773}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 952887772}
+  - component: {fileID: 952887773}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_REF
   m_TagString: Untagged
@@ -979,10 +1501,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.61, y: -8.45, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 3
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &952887773
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -997,7 +1526,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1005,27 +1540,50 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: d6c868893289245be8ab83c41de4b9c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.325}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1005567603
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1005567604}
   - 212: {fileID: 1005567606}
   - 61: {fileID: 1005567605}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1005567604}
+  - component: {fileID: 1005567606}
+  - component: {fileID: 1005567605}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 9
   m_Name: Bg-street (1)
   m_TagString: Untagged
@@ -1042,10 +1600,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 16.82, y: 1.73, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 824389944}
   m_RootOrder: 1
+=======
+  m_Children: []
+  m_Father: {fileID: 824389944}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!61 &1005567605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1057,9 +1622,26 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< .merge_file_rAfXaa
   m_Offset: {x: 0, y: -1.580199}
   serializedVersion: 2
   m_Size: {x: 6.4000006, y: 0.42960262}
+=======
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.580199}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.4, y: 3.59}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.4000006, y: 0.42960262}
+  m_EdgeRadius: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1005567606
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1074,7 +1656,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1082,26 +1670,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2120331297
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 4a8203e32bebc4fa7aebe729193d9256, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1033562850
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1033562851}
   - 212: {fileID: 1033562852}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1033562851}
+  - component: {fileID: 1033562852}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_5_cloud2 (1)
   m_TagString: Untagged
@@ -1118,10 +1728,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 51.98, y: 4.34, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 14
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1033562852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1136,7 +1753,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1144,25 +1767,46 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 6ded92bcc73bc4a999d91d1138f92d43, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1084612778
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1084612779}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1084612779}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -1179,7 +1823,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.23, y: 0.7866503, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> .merge_file_Y4FlJ5
   m_Children:
   - {fileID: 757564701}
   - {fileID: 1341133921}
@@ -1199,15 +1846,26 @@ Transform:
   - {fileID: 911610855}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1089710947
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1089710948}
   - 212: {fileID: 1089710949}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1089710948}
+  - component: {fileID: 1089710949}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_8_Shrubs
   m_TagString: Untagged
@@ -1224,10 +1882,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.013333401, y: 0.0033333302, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.23076925}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1468333785}
   m_RootOrder: 2
+=======
+  m_Children: []
+  m_Father: {fileID: 1468333785}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1089710949
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1242,7 +1907,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1250,27 +1921,50 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1759624571
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90d49ce78b9634918b2119d34f10fb7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1120206318
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1120206321}
   - 114: {fileID: 1120206320}
   - 114: {fileID: 1120206319}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1120206321}
+  - component: {fileID: 1120206320}
+  - component: {fileID: 1120206319}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1319,19 +2013,33 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+=======
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1252781799
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1252781800}
   - 212: {fileID: 1252781801}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1252781800}
+  - component: {fileID: 1252781801}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_1_horiz_cloud (3)
   m_TagString: Untagged
@@ -1348,10 +2056,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 35.98, y: 3.24, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 9
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1252781801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1366,7 +2081,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1374,26 +2095,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 98502eae4f03a4a30af5f74dcfbd8c46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1341133920
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1341133921}
   - 212: {fileID: 1341133922}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1341133921}
+  - component: {fileID: 1341133922}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_5_cloud2
   m_TagString: Untagged
@@ -1410,10 +2153,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 13.6, y: 4.3, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 1
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1341133922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1428,7 +2178,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1436,25 +2192,46 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 6ded92bcc73bc4a999d91d1138f92d43, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1468333784
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1468333785}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1468333785}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 9
   m_Name: Mid Ground
   m_TagString: Untagged
@@ -1471,7 +2248,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.6, y: 1.61, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 13}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> .merge_file_Y4FlJ5
   m_Children:
   - {fileID: 655427480}
   - {fileID: 2016572861}
@@ -1479,15 +2259,26 @@ Transform:
   - {fileID: 28131572}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1514227162
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1514227163}
   - 212: {fileID: 1514227164}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1514227163}
+  - component: {fileID: 1514227164}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_REF (1)
   m_TagString: Untagged
@@ -1504,10 +2295,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 38.99, y: -8.41, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 13
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1514227164
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1522,7 +2320,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1530,27 +2334,50 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: d6c868893289245be8ab83c41de4b9c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.325}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1518259689
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1518259690}
   - 212: {fileID: 1518259692}
   - 61: {fileID: 1518259691}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1518259690}
+  - component: {fileID: 1518259692}
+  - component: {fileID: 1518259691}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 9
   m_Name: Bg-street (2)
   m_TagString: Untagged
@@ -1567,10 +2394,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 40.91, y: 1.73, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 824389944}
   m_RootOrder: 3
+=======
+  m_Children: []
+  m_Father: {fileID: 824389944}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!61 &1518259691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1582,9 +2416,26 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< .merge_file_rAfXaa
   m_Offset: {x: 0, y: -1.580199}
   serializedVersion: 2
   m_Size: {x: 6.4000006, y: 0.42960262}
+=======
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.580199}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.4, y: 3.59}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.4000006, y: 0.42960262}
+  m_EdgeRadius: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1518259692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1599,7 +2450,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1607,26 +2464,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2120331297
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 4a8203e32bebc4fa7aebe729193d9256, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1519416950
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1519416951}
   - 212: {fileID: 1519416952}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1519416951}
+  - component: {fileID: 1519416952}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_1_horiz_cloud (2)
   m_TagString: Untagged
@@ -1643,10 +2522,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 16.76, y: 3.6, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 8
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1519416952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1661,7 +2547,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1669,27 +2561,50 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 98502eae4f03a4a30af5f74dcfbd8c46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1747714608
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1747714609}
   - 222: {fileID: 1747714611}
   - 114: {fileID: 1747714610}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1747714609}
+  - component: {fileID: 1747714611}
+  - component: {fileID: 1747714610}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1706,10 +2621,17 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1758309050}
   m_RootOrder: 0
+=======
+  m_Children: []
+  m_Father: {fileID: 1758309050}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1759,10 +2681,17 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1755831041}
   - 212: {fileID: 1755831042}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1755831041}
+  - component: {fileID: 1755831042}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_3_mountains (1)
   m_TagString: Untagged
@@ -1779,10 +2708,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 16.77, y: 2.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 5
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1755831042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1797,7 +2733,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1805,28 +2747,52 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -8
   m_Sprite: {fileID: 21300000, guid: 061c9b04b418841978e4993cc7c60b45, type: 3}
   m_Color: {r: 0.5581747, g: 0.85294104, b: 0.85294116, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1758309049
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1758309050}
   - 222: {fileID: 1758309053}
   - 114: {fileID: 1758309052}
   - 114: {fileID: 1758309051}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1758309050}
+  - component: {fileID: 1758309053}
+  - component: {fileID: 1758309052}
+  - component: {fileID: 1758309051}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1843,11 +2809,18 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> .merge_file_Y4FlJ5
   m_Children:
   - {fileID: 1747714609}
   m_Father: {fileID: 2075040589}
   m_RootOrder: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -80, y: -15}
@@ -1943,11 +2916,19 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1822171464}
   - 212: {fileID: 1822171466}
   - 61: {fileID: 1822171465}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1822171464}
+  - component: {fileID: 1822171466}
+  - component: {fileID: 1822171465}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 9
   m_Name: Bg-street (3)
   m_TagString: Untagged
@@ -1964,10 +2945,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 29.83, y: 5.74, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 824389944}
   m_RootOrder: 4
+=======
+  m_Children: []
+  m_Father: {fileID: 824389944}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!61 &1822171465
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1979,9 +2967,26 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
+<<<<<<< .merge_file_rAfXaa
   m_Offset: {x: 0, y: -1.580199}
   serializedVersion: 2
   m_Size: {x: 6.4000006, y: 0.42960262}
+=======
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.580199}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.4, y: 3.59}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.4000006, y: 0.42960262}
+  m_EdgeRadius: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1822171466
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1996,7 +3001,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2004,26 +3015,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2120331297
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 4a8203e32bebc4fa7aebe729193d9256, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1890791140
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1890791141}
   - 212: {fileID: 1890791142}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1890791141}
+  - component: {fileID: 1890791142}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_5_cloud1 (1)
   m_TagString: Untagged
@@ -2040,10 +3073,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 41.17, y: 1.94, z: -1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 11
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1890791142
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2058,7 +3098,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2066,26 +3112,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: dfd7f7cca270d4f23868e4178799d108, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1967062029
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1967062030}
   - 212: {fileID: 1967062031}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1967062030}
+  - component: {fileID: 1967062031}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_9_Tree1
   m_TagString: Untagged
@@ -2102,10 +3170,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.05, y: 1.81, z: 1}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 824389944}
   m_RootOrder: 2
+=======
+  m_Children: []
+  m_Father: {fileID: 824389944}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1967062031
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2120,7 +3195,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2128,26 +3209,48 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2120331297
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 325617f5330a54e35a30dc33c8432ad1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &1996278526
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1996278527}
   - 212: {fileID: 1996278528}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1996278527}
+  - component: {fileID: 1996278528}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_3_mountains (2)
   m_TagString: Untagged
@@ -2164,10 +3267,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 35.92, y: 2.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1084612779}
   m_RootOrder: 12
+=======
+  m_Children: []
+  m_Father: {fileID: 1084612779}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &1996278528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2182,7 +3292,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2190,17 +3306,32 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -748133807
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: -8
   m_Sprite: {fileID: 21300000, guid: 061c9b04b418841978e4993cc7c60b45, type: 3}
   m_Color: {r: 0.5764706, g: 0.8509804, b: 0.85490197, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!114 &2013243202 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114000011464476054, guid: 76495833a7596475e8c7fa7bc27b2f2c,
@@ -2212,10 +3343,17 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2016572861}
   - 212: {fileID: 2016572862}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2016572861}
+  - component: {fileID: 2016572862}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 0
   m_Name: Bg_6_Sails
   m_TagString: Untagged
@@ -2232,10 +3370,17 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.24, y: 0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1468333785}
   m_RootOrder: 1
+=======
+  m_Children: []
+  m_Father: {fileID: 1468333785}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!212 &2016572862
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2250,7 +3395,13 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< .merge_file_rAfXaa
   m_SubsetIndices: 
+=======
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2258,22 +3409,38 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+<<<<<<< .merge_file_rAfXaa
   m_SelectedWireframeHidden: 1
+=======
+  m_SelectedEditorRenderState: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1759624571
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_SortingLayer: 0
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f4420dd2e13944c3e864d7fef22e45f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+>>>>>>> .merge_file_Y4FlJ5
 --- !u!1 &2075040585
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 2075040589}
@@ -2281,6 +3448,15 @@ GameObject:
   - 114: {fileID: 2075040587}
   - 114: {fileID: 2075040586}
   - 114: {fileID: 2075040590}
+=======
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2075040589}
+  - component: {fileID: 2075040588}
+  - component: {fileID: 2075040587}
+  - component: {fileID: 2075040586}
+  - component: {fileID: 2075040590}
+>>>>>>> .merge_file_Y4FlJ5
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2332,7 +3508,11 @@ Canvas:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2075040585}
   m_Enabled: 1
+<<<<<<< .merge_file_rAfXaa
   serializedVersion: 2
+=======
+  serializedVersion: 3
+>>>>>>> .merge_file_Y4FlJ5
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -2341,6 +3521,10 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_AdditionalShaderChannelsFlag: 25
+>>>>>>> .merge_file_Y4FlJ5
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2353,11 +3537,18 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+<<<<<<< .merge_file_rAfXaa
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> .merge_file_Y4FlJ5
   m_Children:
   - {fileID: 1758309050}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+<<<<<<< .merge_file_rAfXaa
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_Y4FlJ5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
