@@ -1,19 +1,34 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
+<<<<<<< .merge_file_DuMJJP
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+=======
 OcclusionCullingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+>>>>>>> .merge_file_qlCAxY
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
+<<<<<<< .merge_file_DuMJJP
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+=======
   m_SceneGUID: 00000000000000000000000000000000
   m_OcclusionCullingData: {fileID: 0}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 8
+>>>>>>> .merge_file_qlCAxY
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -25,7 +40,10 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
+<<<<<<< .merge_file_DuMJJP
+=======
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+>>>>>>> .merge_file_qlCAxY
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -42,7 +60,11 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 7
+=======
   serializedVersion: 9
+>>>>>>> .merge_file_qlCAxY
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +76,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
+<<<<<<< .merge_file_DuMJJP
+    serializedVersion: 4
+=======
     serializedVersion: 8
+>>>>>>> .merge_file_qlCAxY
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -67,10 +93,18 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+<<<<<<< .merge_file_DuMJJP
+    m_DirectLightInLightProbes: 1
+=======
+>>>>>>> .merge_file_qlCAxY
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
+<<<<<<< .merge_file_DuMJJP
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+=======
     m_MixedBakeMode: 1
     m_BakeBackend: 0
     m_PVRSampling: 1
@@ -88,19 +122,30 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
   m_ShadowMaskMode: 2
+>>>>>>> .merge_file_qlCAxY
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
+<<<<<<< .merge_file_DuMJJP
+=======
     agentTypeID: 0
+>>>>>>> .merge_file_qlCAxY
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
+<<<<<<< .merge_file_DuMJJP
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: 0.16666667
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+=======
     minRegionArea: 2
     manualCellSize: 0
     cellSize: 0.16666667
@@ -190,16 +235,25 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81495429}
+>>>>>>> .merge_file_qlCAxY
 --- !u!1 &134765269
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 134765272}
+  - 114: {fileID: 134765271}
+  - 114: {fileID: 134765270}
+=======
   serializedVersion: 5
   m_Component:
   - component: {fileID: 134765272}
   - component: {fileID: 134765271}
   - component: {fileID: 134765270}
+>>>>>>> .merge_file_qlCAxY
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -248,6 +302,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_DuMJJP
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+=======
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -320,11 +380,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172339082}
+>>>>>>> .merge_file_qlCAxY
 --- !u!1 &175890591
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 175890596}
+  - 20: {fileID: 175890595}
+  - 92: {fileID: 175890594}
+  - 124: {fileID: 175890593}
+  - 81: {fileID: 175890592}
+=======
   serializedVersion: 5
   m_Component:
   - component: {fileID: 175890596}
@@ -332,6 +402,7 @@ GameObject:
   - component: {fileID: 175890594}
   - component: {fileID: 175890593}
   - component: {fileID: 175890592}
+>>>>>>> .merge_file_qlCAxY
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -390,8 +461,11 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
+<<<<<<< .merge_file_DuMJJP
+=======
   m_AllowMSAA: 1
   m_ForceIntoRT: 0
+>>>>>>> .merge_file_qlCAxY
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
@@ -405,6 +479,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_DuMJJP
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+=======
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -477,17 +557,27 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 454806803}
+>>>>>>> .merge_file_qlCAxY
 --- !u!1 &603686478
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 603686479}
+  - 222: {fileID: 603686482}
+  - 114: {fileID: 603686481}
+  - 114: {fileID: 603686480}
+=======
   serializedVersion: 5
   m_Component:
   - component: {fileID: 603686479}
   - component: {fileID: 603686482}
   - component: {fileID: 603686481}
   - component: {fileID: 603686480}
+>>>>>>> .merge_file_qlCAxY
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -504,11 +594,19 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_DuMJJP
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1875525968}
+  m_Father: {fileID: 1827917184}
+  m_RootOrder: 1
+=======
   m_Children:
   - {fileID: 1875525968}
   m_Father: {fileID: 1827917184}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_qlCAxY
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -29.999996}
@@ -599,16 +697,28 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 603686478}
+<<<<<<< .merge_file_DuMJJP
+--- !u!1 &1768930838
+=======
 --- !u!1 &781754344
+>>>>>>> .merge_file_qlCAxY
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1768930839}
+  - 222: {fileID: 1768930841}
+  - 114: {fileID: 1768930840}
+=======
   serializedVersion: 5
   m_Component:
   - component: {fileID: 781754345}
   - component: {fileID: 781754347}
   - component: {fileID: 781754346}
+>>>>>>> .merge_file_qlCAxY
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -616,11 +726,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< .merge_file_DuMJJP
+--- !u!224 &1768930839
+=======
 --- !u!224 &781754345
+>>>>>>> .merge_file_qlCAxY
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  m_GameObject: {fileID: 1768930838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1827917184}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 252.3, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1768930840
+=======
   m_GameObject: {fileID: 781754344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -709,18 +839,27 @@ RectTransform:
   m_SizeDelta: {x: 200, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899290053
+>>>>>>> .merge_file_qlCAxY
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  m_GameObject: {fileID: 1768930838}
+=======
   m_GameObject: {fileID: 899290051}
+>>>>>>> .merge_file_qlCAxY
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
   m_Color: {r: 0.9490197, g: 0.9176471, b: 0.37647063, a: 1}
+>>>>>>> .merge_file_qlCAxY
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -728,6 +867,15 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
+<<<<<<< .merge_file_DuMJJP
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+=======
     m_Font: {fileID: 12800000, guid: 6b505441a232e46d6afb31b45875be54, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
@@ -735,17 +883,26 @@ MonoBehaviour:
     m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
+>>>>>>> .merge_file_qlCAxY
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
+<<<<<<< .merge_file_DuMJJP
+  m_Text: LEADER BOARD
+--- !u!222 &1768930841
+=======
   m_Text: BROPHY WALL OF FAME
 --- !u!222 &899290054
+>>>>>>> .merge_file_qlCAxY
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  m_GameObject: {fileID: 1768930838}
+=======
   m_GameObject: {fileID: 899290051}
 --- !u!1 &1406922583
 GameObject:
@@ -1023,11 +1180,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+>>>>>>> .merge_file_qlCAxY
 --- !u!1 &1827917180
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1827917184}
+  - 223: {fileID: 1827917183}
+  - 114: {fileID: 1827917182}
+  - 114: {fileID: 1827917181}
+  - 114: {fileID: 1827917185}
+=======
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1827917184}
@@ -1035,6 +1202,7 @@ GameObject:
   - component: {fileID: 1827917182}
   - component: {fileID: 1827917181}
   - component: {fileID: 1827917185}
+>>>>>>> .merge_file_qlCAxY
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1086,7 +1254,11 @@ Canvas:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1827917180}
   m_Enabled: 1
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 2
+=======
   serializedVersion: 3
+>>>>>>> .merge_file_qlCAxY
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -1095,7 +1267,10 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+<<<<<<< .merge_file_DuMJJP
+=======
   m_AdditionalShaderChannelsFlag: 25
+>>>>>>> .merge_file_qlCAxY
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1108,6 +1283,14 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+<<<<<<< .merge_file_DuMJJP
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1768930839}
+  - {fileID: 603686479}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+=======
   m_Children:
   - {fileID: 603686479}
   - {fileID: 1723213435}
@@ -1121,6 +1304,7 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_qlCAxY
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1142,11 +1326,19 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< .merge_file_DuMJJP
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1875525968}
+  - 222: {fileID: 1875525970}
+  - 114: {fileID: 1875525969}
+=======
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1875525968}
   - component: {fileID: 1875525970}
   - component: {fileID: 1875525969}
+>>>>>>> .merge_file_qlCAxY
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1163,10 +1355,17 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< .merge_file_DuMJJP
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 603686479}
+  m_RootOrder: 0
+=======
   m_Children: []
   m_Father: {fileID: 603686479}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> .merge_file_qlCAxY
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1211,6 +1410,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875525967}
+<<<<<<< .merge_file_DuMJJP
+=======
 --- !u!1 &2058496294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,3 +1480,4 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2058496294}
+>>>>>>> .merge_file_qlCAxY
