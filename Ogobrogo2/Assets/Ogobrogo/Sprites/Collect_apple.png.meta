@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 9b6ef1091b3bf49cc97734f778c7663f
-timeCreated: 1497219484
+timeCreated: 1497323838
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Collect_apple_0
+    21300002: Collect_apple_1
+    21300004: Collect_apple_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,11 +59,37 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 64
-        height: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Collect_apple_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Collect_apple_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
