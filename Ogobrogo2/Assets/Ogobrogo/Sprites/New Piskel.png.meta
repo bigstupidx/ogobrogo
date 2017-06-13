@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 8a1e6aed20cdc43a4ae7c6ef854753f1
-timeCreated: 1497323520
+timeCreated: 1497324655
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: New Piskel_0
+    21300002: New Piskel_1
+    21300004: New Piskel_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,9 +59,35 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: New Piskel_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: New Piskel_2
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
