@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9b6ef1091b3bf49cc97734f778c7663f
-timeCreated: 1497323289
+guid: 8a1e6aed20cdc43a4ae7c6ef854753f1
+timeCreated: 1497323520
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Collect_apple_0
+    21300000: New Piskel_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -31,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -53,7 +53,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Collect_apple_0
+      name: New Piskel_0
       rect:
         serializedVersion: 2
         x: 0

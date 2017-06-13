@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ogobrogo/Scripts/PlayerCollisionTrigger.cs">
+    <Files>
+      <File FileName="Assets/Ogobrogo/Scripts/PlayerCollisionTrigger.cs" Line="20" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Assets/Ogobrogo/Scripts/PlayerCollisionTrigger.cs" line="18" column="46" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
