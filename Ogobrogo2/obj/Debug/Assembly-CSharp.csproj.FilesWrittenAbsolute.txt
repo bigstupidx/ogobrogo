@@ -17,3 +17,4 @@
 /Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/obj/Debug/Assembly-CSharp.dll
 /Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Temp/bin/Debug/Fabric.Core.dll
