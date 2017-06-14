@@ -16,4 +16,13 @@ public class GirlController : MonoBehaviour
 		}
 
 	}
+
+	void OnTriggerExit2D(Collider2D other)
+	{
+		if(other.gameObject.CompareTag("Girl"))
+		{
+			Dude.SpeedPenalty = 1;
+		}
+
+	}
 }

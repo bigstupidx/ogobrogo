@@ -7,29 +7,43 @@ public class PowerUpController : MonoBehaviour
 	public AudioSource audioSource;
 	public Animator animator;
 	public Rigidbody2D rigidBody;
-	public double PowerUpMaxTime = 2000;
+	public float PowerUpMaxTime = 2f;
+
 	private float startingGravity; 
-	private Timer powerUpTimer;
+	private float startingMass;
+
+	private float currentTime = 0f;
+	public bool IsOnPowerUp = false;
 
 	private Coroutine coroutine;
+
+	public RigidBodyToggler[] RigidBodyTogglers;
 
 	void Start()
 	{
 		startingGravity = rigidBody.gravityScale;
+		startingMass = rigidBody.mass;
 
-		powerUpTimer = new Timer(); 
-		powerUpTimer.Elapsed += new ElapsedEventHandler(onTimer); 
-		powerUpTimer.Interval = PowerUpMaxTime; 
+		Physics2D.IgnoreLayerCollision(8,9);
 	}
 
+	void Update()
+	{
+		if(IsOnPowerUp)
+		{
+			currentTime -= Time.deltaTime;
+			if(currentTime <= 0f)
+			{
+				animator.SetBool("PowerUp", false);
+				//rigidBody.gravityScale = startingGravity;
+				//rigidBody.mass = startingMass;
 
-	void onTimer(object source, ElapsedEventArgs e) 
-	{ 
-		animator.SetBool("PowerUp", false);
-		rigidBody.gravityScale = startingGravity;
-		powerUpTimer.Stop(); 
+				IsOnPowerUp = false;
+
+				//toggleRigidBodies();
+			}
+		}
 	}
-
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
@@ -40,12 +54,25 @@ public class PowerUpController : MonoBehaviour
 
 			animator.SetBool("PowerUp", true);
 
-			rigidBody.gravityScale = 3.5f;
+			//rigidBody.gravityScale = 0.05f;
+			//rigidBody.mass = 5000;
 
 			audioSource.Play();
 
-			powerUpTimer.Start(); 
+			currentTime = PowerUpMaxTime;
+
+			IsOnPowerUp = true;
+
+			//toggleRigidBodies();
 		}
 	}
+
+	/*private void toggleRigidBodies()
+	{
+		for(int i=0; i < RigidBodyTogglers.Length; i++)
+		{
+			RigidBodyTogglers[i].PowerUp = IsOnPowerUp;
+		}
+	}*/
 
 }
