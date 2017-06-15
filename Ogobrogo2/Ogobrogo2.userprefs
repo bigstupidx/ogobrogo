@@ -1,16 +1,22 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GirlController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SneekyOgoTrigger.cs">
     <Files>
-      <File FileName="Assets/PowerUpController.cs" Line="28" Column="36" />
-      <File FileName="Assets/Ogobrogo/Scripts/PlayerCollisionTrigger.cs" Line="15" Column="41" />
-      <File FileName="Assets/GirlController.cs" Line="15" Column="26" />
-      <File FileName="Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" Line="32" Column="35" />
+      <File FileName="Assets/GirlController.cs" Line="14" Column="4" />
+      <File FileName="Assets/PowerUpController.cs" Line="76" Column="5" />
+      <File FileName="Assets/Ogobrogo/Scripts/PlayerCollisionTrigger.cs" Line="19" Column="4" />
+      <File FileName="Assets/ToggleColliders.cs" Line="17" Column="39" />
+      <File FileName="Assets/SceneController.cs" Line="8" Column="2" />
+      <File FileName="Assets/BarrelController.cs" Line="14" Column="7" />
+      <File FileName="Assets/RigidBodyToggler.cs" Line="21" Column="26" />
+      <File FileName="Assets/SneekyOgoTrigger.cs" Line="12" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Assets/Ogobrogo/Scripts/PlayerCollisionTrigger.cs" line="18" column="46" />
+      <Breakpoint file="/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Assets/BarrelController.cs" line="12" column="1" />
+      <Breakpoint file="/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Assets/SneekyOgoTrigger.cs" line="11" column="1" />
+      <Breakpoint file="/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Assets/SneekyOgoTrigger.cs" line="14" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
