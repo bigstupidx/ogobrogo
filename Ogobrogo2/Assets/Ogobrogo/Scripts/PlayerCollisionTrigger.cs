@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class PlayerCollisionTrigger : MonoBehaviour 
 {
+	public GameController gameController;
 	public Text AppleCount;
 	private int appleCount = 0;
 
@@ -18,9 +19,11 @@ public class PlayerCollisionTrigger : MonoBehaviour
 		if(other.gameObject.CompareTag("Collectable"))
 		{
 			Destroy(other.gameObject);
-			appleCount++;
+		}
 
-			AppleCount.text = appleCount.ToString();
+		if(other.gameObject.CompareTag("EndOgo"))
+		{
+			gameController.OnGameComplete();
 		}
 
 	}

@@ -1,12 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour 
 {
 	public GameObject Player;
+	public GameObject StartText;
+	public GameObject ScoreText;
+	public GameObject TimerText;
+
+	public int MaxSeconds = 60;
 	public int ExtraTimeMultiplier = 2;
 	public int AppleMultipler = 2;
-
 	public int Score;
 	public int BonusScore;
 	public int TotalScore;
@@ -14,6 +19,11 @@ public class GameController : MonoBehaviour
 	private int appleCount = 0;
 	private float remainingTime = 0;
 	private float randomMultiplier = 1;
+
+	private float currentTime = 0;
+	private bool isTimerRunning = false;
+
+	private int lastTime = 0;
 
 	public void AddApple()
 	{
@@ -23,6 +33,13 @@ public class GameController : MonoBehaviour
 	public void AddRemainingTime(float remainingTime)
 	{
 		this.remainingTime = remainingTime;
+	}
+
+
+	void Start()
+	{
+		OnStart();
+		isTimerRunning = true;
 	}
 
 	public void OnStart()
@@ -53,11 +70,46 @@ public class GameController : MonoBehaviour
 	{
 		// stop player interaction
 		// Show the time done screen
+
+		Debug.Log("Timer Complete");
 	}
 
 	public void OnPlayerReset()
 	{
 		// show the hurry up text
+	}
+
+	void Update()
+	{
+		if(isTimerRunning)
+		{
+			currentTime -= Time.deltaTime;
+			int tempTime = Mathf.CeilToInt(currentTime);
+
+			if(tempTime == MaxSeconds)
+			{
+				TimerText.GetComponentInChildren<Text>().text = "01:00";
+			}
+
+			if(tempTime < lastTime)
+			{
+				string leadingZeros = "00 : ";
+
+				if(tempTime < 10)
+				{
+					leadingZeros = "00 : 0";
+				}
+				TimerText.GetComponentInChildren<Text>().text = leadingZeros+tempTime.ToString();
+				lastTime = tempTime;
+			}
+
+			if(currentTime <= 0)
+			{
+				currentTime = 0;
+				isTimerRunning = false;
+				OnTimerComplete();
+			}
+		}
 	}
 
 
@@ -68,6 +120,11 @@ public class GameController : MonoBehaviour
 		TotalScore = 0;
 		appleCount = 0;
 		remainingTime = 0;
+		currentTime = MaxSeconds;
+		lastTime = MaxSeconds;
 		randomMultiplier = UnityEngine.Random.Range(1f,3f);
+
+		ScoreText.GetComponentInChildren<Text>().text = Score.ToString();
+		TimerText.GetComponentInChildren<Text>().text = "01:00";
 	} 
 }
