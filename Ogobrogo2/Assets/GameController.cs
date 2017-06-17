@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityStandardAssets._2D;
 
 public class GameController : MonoBehaviour 
 {
@@ -31,6 +32,9 @@ public class GameController : MonoBehaviour
 
 	private OgoSceneManager sceneManager;
 	private LeaderboardData data;
+	private Platformer2DUserControl userControl;
+
+	private Vector2 spawnPoint;
 
 	public void AddApple()
 	{
@@ -41,18 +45,27 @@ public class GameController : MonoBehaviour
 	{
 		data = FindObjectOfType<LeaderboardData>();
 		sceneManager = FindObjectOfType<OgoSceneManager>();
-		OnStart();
-		isTimerRunning = true;
+		userControl = Player.GetComponent<Platformer2DUserControl>();
+
+		spawnPoint = Player.transform.position;
+
+		userControl.enabled = false;
+		isTimerRunning = false;
+
+		TimerText.GetComponentInChildren<Text>().text = "01:00";
 
 		showFinalScore(false);
-		StartCoroutine(hideStartText());
+		StartCoroutine(OnStart());
 	}
 
-	public void OnStart()
+	public IEnumerator OnStart()
 	{
-		// show the starting text
-		// start player interaction after 1-2 seconds
-		// maybe need a "Go Bro" message? 
+		yield return new WaitForSeconds(5);
+
+		userControl.enabled = true;
+		StartText.SetActive(false);
+		isTimerRunning = true;
+
 		ResetGame();
 	}
 
@@ -153,11 +166,9 @@ public class GameController : MonoBehaviour
 		TimerText.GetComponentInChildren<Text>().text = "01:00";
 	} 
 
-	private IEnumerator hideStartText()
+	public void SoftReset()
 	{
-		yield return new WaitForSeconds(5);
-
-		StartText.SetActive(false);
+		Player.transform.position = spawnPoint;
 	}
 
 	private void showFinalScore(bool show)
