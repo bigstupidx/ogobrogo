@@ -9,6 +9,10 @@ public class GameController : MonoBehaviour
 	public GameObject ScoreText;
 	public GameObject TimerText;
 
+	public GameObject FinalScoreText1;
+	public GameObject FinalScoreText2;
+	public GameObject FinalScoreText3;
+
 	public int MaxSeconds = 60;
 	public int ExtraTimeMultiplier = 2;
 	public int AppleMultipler = 2;
@@ -33,18 +37,15 @@ public class GameController : MonoBehaviour
 		appleCount++;
 	}
 
-	public void AddRemainingTime(float remainingTime)
-	{
-		this.remainingTime = remainingTime;
-	}
-
-
 	void Start()
 	{
 		data = FindObjectOfType<LeaderboardData>();
 		sceneManager = FindObjectOfType<OgoSceneManager>();
 		OnStart();
 		isTimerRunning = true;
+
+		showFinalScore(false);
+		StartCoroutine(hideStartText());
 	}
 
 	public void OnStart()
@@ -59,26 +60,28 @@ public class GameController : MonoBehaviour
 	public void OnGameComplete()
 	{
 		// stop player interaction
+		isTimerRunning = false; 
+
+		remainingTime = Mathf.Ceil(currentTime);
 
 		// apply ExtraTimeMultiplier * remaining time * random variance to score
 		Score = appleCount * AppleMultipler;
 		BonusScore = Mathf.CeilToInt(remainingTime * ExtraTimeMultiplier * randomMultiplier);
 		TotalScore = Score + BonusScore;
 
-
-
-		// show score in middle of screen for n seconds (
-		// determine whether on leaderboard and show
-		// if not on leader board show other end screen
-
 		StartCoroutine(showScore());
 	}
 
 	private IEnumerator showScore()
 	{
+		showFinalScore(true);
+		int index = data.GetHighScoreindex(TotalScore);
+
 		yield return new WaitForSeconds(5);
 
-		if(data.GetHighScoreindex(TotalScore) > -1)
+		showFinalScore(false);
+
+		if(index > -1)
 		{
 			data.SetCurrentHighScore(TotalScore);
 			sceneManager.LoadScene("Success Leaderboard Screen");
@@ -152,4 +155,22 @@ public class GameController : MonoBehaviour
 		ScoreText.GetComponentInChildren<Text>().text = Score.ToString();
 		TimerText.GetComponentInChildren<Text>().text = "01:00";
 	} 
+
+	private IEnumerator hideStartText()
+	{
+		yield return new WaitForSeconds(5);
+
+		StartText.SetActive(false);
+	}
+
+	private void showFinalScore(bool show)
+	{
+		FinalScoreText1.SetActive(show);
+		FinalScoreText2.SetActive(show);
+		FinalScoreText3.SetActive(show);
+
+		FinalScoreText1.GetComponentInChildren<Text>().text = "SCORE : "+Score.ToString();
+		FinalScoreText2.GetComponentInChildren<Text>().text = "BRONUS : "+BonusScore.ToString();
+		FinalScoreText3.GetComponentInChildren<Text>().text = "TOTAL : "+TotalScore.ToString();
+	}
 }

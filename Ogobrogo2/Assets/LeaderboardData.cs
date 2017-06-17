@@ -35,16 +35,20 @@ public class LeaderboardData : MonoBehaviour
 	// returns highscore index -1 is not found
 	public int GetHighScoreindex(int score)
 	{
-		int i;
-		for(i=highScores.Length-1; i >= -1; i--)
+		int j=-1;
+		for(int i=highScores.Length-1; i > -1; i--)
 		{
-			if(score < highScores[i].Score)
+			if(score <= highScores[i].Score)
 			{
 				break;
 			}
+			else
+			{
+				j=i;
+			}
 		}
 
-		return i;
+		return j;
 	}
 
 	public void SetCurrentHighScore(int score)
