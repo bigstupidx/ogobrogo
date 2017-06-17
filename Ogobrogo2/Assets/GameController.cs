@@ -14,6 +14,9 @@ public class GameController : MonoBehaviour
 	public GameObject FinalScoreText2;
 	public GameObject FinalScoreText3;
 
+	public GameObject LeapText;
+	public Text AppleCountText;
+
 	public int MaxSeconds = 60;
 	public int ExtraTimeMultiplier = 2;
 	public int AppleMultipler = 2;
@@ -33,13 +36,15 @@ public class GameController : MonoBehaviour
 	private OgoSceneManager sceneManager;
 	private LeaderboardData data;
 	private Platformer2DUserControl userControl;
-	private PowerUpController powerUpControl;
+	public PowerUpController PowerUpControl;
 
 	private Vector2 spawnPoint;
 
 	public void AddApple()
 	{
 		appleCount++;
+		Score = appleCount * AppleMultipler;
+		AppleCountText.text = Score.ToString();
 	}
 
 	void Start()
@@ -47,12 +52,14 @@ public class GameController : MonoBehaviour
 		data = FindObjectOfType<LeaderboardData>();
 		sceneManager = FindObjectOfType<OgoSceneManager>();
 		userControl = Player.GetComponent<Platformer2DUserControl>();
-		powerUpControl = Player.GetComponent<PowerUpController>();
+		PowerUpControl = Player.GetComponent<PowerUpController>();
 
 		spawnPoint = Player.transform.position;
 
-		userControl.enabled = false;
+		DisableControls();
 		isTimerRunning = false;
+
+		LeapText.SetActive(false);
 
 		TimerText.GetComponentInChildren<Text>().text = "01:00";
 
@@ -64,7 +71,7 @@ public class GameController : MonoBehaviour
 	{
 		yield return new WaitForSeconds(5);
 
-		userControl.enabled = true;
+		EnableControls();
 		StartText.SetActive(false);
 		isTimerRunning = true;
 
@@ -170,10 +177,11 @@ public class GameController : MonoBehaviour
 
 	public void SoftReset()
 	{
-		if(!powerUpControl.IsOnPowerUp)
+		if(!PowerUpControl.IsOnPowerUp)
 		{
 			Player.transform.position = spawnPoint;
-			powerUpControl.SetPowerUp(false);
+			PowerUpControl.SetPowerUp(false);
+			EnableControls();
 		}
 	}
 
@@ -186,5 +194,31 @@ public class GameController : MonoBehaviour
 		FinalScoreText1.GetComponentInChildren<Text>().text = "SCORE : "+Score.ToString();
 		FinalScoreText2.GetComponentInChildren<Text>().text = "BRONUS : "+BonusScore.ToString();
 		FinalScoreText3.GetComponentInChildren<Text>().text = "TOTAL : "+TotalScore.ToString();
+	}
+
+	public void ShowLeapText()
+	{
+
+		StartCoroutine(showLeapText());
+	}
+
+	private IEnumerator showLeapText()
+	{
+		LeapText.SetActive(true);
+
+		yield return new WaitForSeconds(3);
+
+		LeapText.SetActive(false);
+
+	}
+
+	public void DisableControls()
+	{
+		userControl.enabled = false;
+	}
+
+	public void EnableControls()
+	{
+		userControl.enabled = true;
 	}
 }

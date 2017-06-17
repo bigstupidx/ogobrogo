@@ -14,7 +14,21 @@ public class GameReset : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
+			StartCoroutine(doReset());
+		}
+	}
+
+	private IEnumerator doReset()
+	{
+		if(!gameController.PowerUpControl.IsOnPowerUp)
+		{
+			gameController.DisableControls();
+
+			yield return new WaitForSeconds(1.5f);
+
 			gameController.SoftReset();
 		}
+
+		yield break;
 	}
 }
