@@ -24,6 +24,8 @@ public class GameController : MonoBehaviour
 	public int BonusScore;
 	public int TotalScore;
 
+	public bool IsDead = false;
+
 	private int appleCount = 0;
 	private float remainingTime = 0;
 	private float randomMultiplier = 1;
@@ -179,9 +181,11 @@ public class GameController : MonoBehaviour
 	{
 		if(!PowerUpControl.IsOnPowerUp)
 		{
+			SetSadState(false);
 			Player.transform.position = spawnPoint;
 			PowerUpControl.SetPowerUp(false);
 			EnableControls();
+			IsDead = false;
 		}
 	}
 
@@ -220,5 +224,16 @@ public class GameController : MonoBehaviour
 	public void EnableControls()
 	{
 		userControl.enabled = true;
+	}
+
+	public void PlayerDead()
+	{
+		SetSadState(true);
+		IsDead = true;
+	}
+
+	public void SetSadState(bool value)
+	{
+		Player.GetComponent<Animator>().SetBool("Sad", value);
 	}
 }

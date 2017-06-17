@@ -22,9 +22,10 @@ public class GameReset : MonoBehaviour
 	{
 		if(!gameController.PowerUpControl.IsOnPowerUp)
 		{
+			gameController.SetSadState(true);
 			gameController.DisableControls();
 
-			yield return new WaitForSeconds(1.5f);
+			yield return new WaitForSeconds(2.5f);
 
 			gameController.SoftReset();
 		}
