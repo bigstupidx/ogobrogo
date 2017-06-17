@@ -33,6 +33,7 @@ public class GameController : MonoBehaviour
 	private OgoSceneManager sceneManager;
 	private LeaderboardData data;
 	private Platformer2DUserControl userControl;
+	private PowerUpController powerUpControl;
 
 	private Vector2 spawnPoint;
 
@@ -46,6 +47,7 @@ public class GameController : MonoBehaviour
 		data = FindObjectOfType<LeaderboardData>();
 		sceneManager = FindObjectOfType<OgoSceneManager>();
 		userControl = Player.GetComponent<Platformer2DUserControl>();
+		powerUpControl = Player.GetComponent<PowerUpController>();
 
 		spawnPoint = Player.transform.position;
 
@@ -168,7 +170,11 @@ public class GameController : MonoBehaviour
 
 	public void SoftReset()
 	{
-		Player.transform.position = spawnPoint;
+		if(!powerUpControl.IsOnPowerUp)
+		{
+			Player.transform.position = spawnPoint;
+			powerUpControl.SetPowerUp(false);
+		}
 	}
 
 	private void showFinalScore(bool show)
