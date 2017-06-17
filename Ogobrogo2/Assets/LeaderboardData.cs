@@ -16,10 +16,13 @@ public class LeaderboardData : MonoBehaviour
 	}
 
 	private ScoreData[] highScores;
+	private int currentHighScore;
 
 	void Awake()
 	{
 		DontDestroyOnLoad(this);
+
+		currentHighScore = 0;
 
 		highScores = new ScoreData[3];
 
@@ -44,10 +47,16 @@ public class LeaderboardData : MonoBehaviour
 		return i;
 	}
 
-	public void SetHighScore(int index, string initials, int score)
+	public void SetCurrentHighScore(int score)
 	{
+		currentHighScore = score;
+	}
+
+	public void SetHighScoreName(string initials)
+	{
+		int index = GetHighScoreindex(currentHighScore);
 		highScores[index].Initials = initials;
-		highScores[index].Score = score;
+		highScores[index].Score = currentHighScore;
 	}
 
 	public ScoreData[] GetHighScores()
