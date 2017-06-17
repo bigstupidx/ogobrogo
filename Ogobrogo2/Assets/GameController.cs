@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
 
 	private int lastTime = 0;
 
+	private OgoSceneManager sceneManager;
+
 	public void AddApple()
 	{
 		appleCount++;
@@ -38,6 +40,7 @@ public class GameController : MonoBehaviour
 
 	void Start()
 	{
+		sceneManager = FindObjectOfType<OgoSceneManager>();
 		OnStart();
 		isTimerRunning = true;
 	}
@@ -63,6 +66,15 @@ public class GameController : MonoBehaviour
 		// show score in middle of screen for n seconds (
 		// determine whether on leaderboard and show
 		// if not on leader board show other end screen
+
+		StartCoroutine(showScore());
+	}
+
+	private IEnumerator showScore()
+	{
+		yield return new WaitForSeconds(5);
+
+		sceneManager.LoadScene("Success No Leaderboard Screen");
 	}
 
 
@@ -72,6 +84,8 @@ public class GameController : MonoBehaviour
 		// Show the time done screen
 
 		Debug.Log("Timer Complete");
+
+		sceneManager.LoadScene("Time Done Screen");
 	}
 
 	public void OnPlayerReset()

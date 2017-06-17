@@ -10,7 +10,7 @@ public class PlayerCollisionTrigger : MonoBehaviour
 
 	void Start()
 	{
-		AppleCount.text = appleCount.ToString();
+ 		AppleCount.text = appleCount.ToString();
 	}
 
 	void OnTriggerEnter2D(Collider2D other)

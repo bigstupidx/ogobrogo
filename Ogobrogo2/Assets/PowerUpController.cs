@@ -9,8 +9,8 @@ public class PowerUpController : MonoBehaviour
 	public Rigidbody2D rigidBody;
 	public float PowerUpMaxTime = 2f;
 
-	private float startingGravity; 
-	private float startingMass;
+	//private float startingGravity; 
+	//private float startingMass;
 
 	private float currentTime = 0f;
 	public bool IsOnPowerUp = false;
@@ -21,8 +21,8 @@ public class PowerUpController : MonoBehaviour
 
 	void Start()
 	{
-		startingGravity = rigidBody.gravityScale;
-		startingMass = rigidBody.mass;
+		//startingGravity = rigidBody.gravityScale;
+		//startingMass = rigidBody.mass;
 
 		Physics2D.IgnoreLayerCollision(8,9);
 	}

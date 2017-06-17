@@ -10,7 +10,6 @@ public class SneekyOgoTrigger : MonoBehaviour
 
 		if(other.gameObject.name == "Player")
 		{
-
 			animator.SetTrigger("OgoStart");
 		}
 	}
