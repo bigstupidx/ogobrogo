@@ -77,7 +77,7 @@ public class GameController : MonoBehaviour
 		showFinalScore(true);
 		int index = data.GetHighScoreindex(TotalScore);
 
-		yield return new WaitForSeconds(5);
+		yield return new WaitForSeconds(4);
 
 		showFinalScore(false);
 
@@ -89,17 +89,14 @@ public class GameController : MonoBehaviour
 		else
 		{
 			sceneManager.LoadScene("Success No Leaderboard Screen");
+			sceneManager.StartIdleTimer();
 		}
 	}
 
 	public void OnTimerComplete()
 	{
-		// stop player interaction
-		// Show the time done screen
-
-		Debug.Log("Timer Complete");
-
 		sceneManager.LoadScene("Time Done Screen");
+		sceneManager.StartIdleTimer();
 	}
 
 	public void OnPlayerReset()

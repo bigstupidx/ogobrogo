@@ -16,9 +16,21 @@ public class ScoreInput : MonoBehaviour
 		sceneManager = FindObjectOfType<OgoSceneManager>();
 	}
 
+	public void Update()
+	{
+		if(Input.GetKey(KeyCode.Return))
+		{
+			OnDoneClicked();
+		}
+	}
+
 	public void OnDoneClicked()
 	{
-		data.SetHighScoreName(ScoreInputField.text);
-		sceneManager.LoadScene(NextScene);
+		if(ScoreInputField.text.Length == 2)
+		{
+			data.SetHighScoreName(ScoreInputField.text);
+			sceneManager.LoadScene(NextScene);
+			sceneManager.StartIdleTimer();
+		}
 	}
 }
