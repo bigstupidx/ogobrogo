@@ -33,3 +33,4 @@
 /Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll.mdb
 /Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Temp/bin/Debug/Fabric.Core.dll
 /Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Temp/bin/Debug/Fabric.Core.Editor.dll
+/Users/lavej022/Documents/Kelowna Art/ogobrogo/Ogobrogo2/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll

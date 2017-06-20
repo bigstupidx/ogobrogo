@@ -20,7 +20,7 @@ public class LeaderboardData : MonoBehaviour
 
 	void Awake()
 	{
-		DontDestroyOnLoad(this);
+		DontDestroyOnLoad(transform.gameObject);
 
 		currentHighScore = 0;
 

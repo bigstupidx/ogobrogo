@@ -12,10 +12,20 @@ public class OgoSceneManager : MonoBehaviour
 
 	private string currentSceneName;
 
+	private static bool spawned = false;
 	void Awake()
 	{
-		GameObject.DontDestroyOnLoad(this);
+		if(spawned == false)
+		{
+			spawned = true;
+			DontDestroyOnLoad(gameObject);
+		}
+		else
+		{
+			DestroyImmediate(gameObject); 
+		}
 	}
+
 
 	void Start()
 	{

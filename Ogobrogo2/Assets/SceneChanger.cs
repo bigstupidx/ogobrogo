@@ -13,7 +13,7 @@ public class SceneChanger : MonoBehaviour
 
 	void Update()
 	{
-		if(Input.anyKey)
+		if(Input.GetKeyDown(KeyCode.Return))
 		{
 			sceneManager.LoadScene(NextScene);
 			sceneManager.StartIdleTimer();
