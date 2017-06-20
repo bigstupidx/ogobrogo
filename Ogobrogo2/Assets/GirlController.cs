@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Fabric;
 using System.Collections;
 using UnityStandardAssets._2D;
 
@@ -14,6 +15,7 @@ public class GirlController : MonoBehaviour
 		if(other.gameObject.CompareTag("Girl"))
 		{
 			Dude.SpeedPenalty = SpeedPenalty;
+			Fabric.EventManager.Instance.PostEvent("SFX/Girl");
 		}
 
 	}

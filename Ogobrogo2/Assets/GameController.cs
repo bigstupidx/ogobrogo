@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Fabric;
 using System.Collections;
 using UnityEngine.UI;
 using UnityStandardAssets._2D;
@@ -47,6 +48,7 @@ public class GameController : MonoBehaviour
 		appleCount++;
 		Score = appleCount * AppleMultipler;
 		AppleCountText.text = Score.ToString();
+		Fabric.EventManager.Instance.PostEvent("SFX/AppleCollect");
 	}
 
 	void Start()
@@ -64,6 +66,8 @@ public class GameController : MonoBehaviour
 		LeapText.SetActive(false);
 
 		TimerText.GetComponentInChildren<Text>().text = "01:00";
+
+		Fabric.EventManager.Instance.PostEvent("MUS/Gameplay");
 
 		showFinalScore(false);
 		StartCoroutine(OnStart());
@@ -119,6 +123,9 @@ public class GameController : MonoBehaviour
 
 	public void OnTimerComplete()
 	{
+		Fabric.EventManager.Instance.PostEvent("SFX/StopAll", Fabric.EventAction.StopAll, null, gameObject);
+		Fabric.EventManager.Instance.PostEvent("MUS/Gameplay", Fabric.EventAction.StopAll, null, gameObject);
+		Fabric.EventManager.Instance.PostEvent("SFX/GameLose", Fabric.EventAction.PlaySound, null, gameObject);
 		sceneManager.LoadScene("Time Done Screen");
 		sceneManager.StartIdleTimer();
 	}
@@ -150,6 +157,12 @@ public class GameController : MonoBehaviour
 				}
 				TimerText.GetComponentInChildren<Text>().text = leadingZeros+tempTime.ToString();
 				lastTime = tempTime;
+
+				if (tempTime <= 5) 
+				{
+					Fabric.EventManager.Instance.PostEvent ("SFX/Timer");
+				}
+
 			}
 
 			if(currentTime <= 0)
@@ -186,23 +199,29 @@ public class GameController : MonoBehaviour
 			PowerUpControl.SetPowerUp(false);
 			EnableControls();
 			IsDead = false;
+			Fabric.EventManager.Instance.PostEvent("MUS/Gameplay");
 		}
 	}
 
 	private void showFinalScore(bool show)
 	{
-		FinalScoreText1.SetActive(show);
-		FinalScoreText2.SetActive(show);
-		FinalScoreText3.SetActive(show);
+		FinalScoreText1.SetActive (show);
+		FinalScoreText2.SetActive (show);
+		FinalScoreText3.SetActive (show);
 
-		FinalScoreText1.GetComponentInChildren<Text>().text = "SCORE : "+Score.ToString();
-		FinalScoreText2.GetComponentInChildren<Text>().text = "BRONUS : "+BonusScore.ToString();
-		FinalScoreText3.GetComponentInChildren<Text>().text = "TOTAL : "+TotalScore.ToString();
+		FinalScoreText1.GetComponentInChildren<Text> ().text = "SCORE : " + Score.ToString ();
+		FinalScoreText2.GetComponentInChildren<Text> ().text = "BRONUS : " + BonusScore.ToString ();
+		FinalScoreText3.GetComponentInChildren<Text> ().text = "TOTAL : " + TotalScore.ToString ();
+	
+		if(show)
+		{
+			Fabric.EventManager.Instance.PostEvent("MUS/Gameplay", Fabric.EventAction.StopAll, null, gameObject);
+			Fabric.EventManager.Instance.PostEvent("MUS/GameWin");
+		}
 	}
 
 	public void ShowLeapText()
 	{
-
 		StartCoroutine(showLeapText());
 	}
 
@@ -230,6 +249,7 @@ public class GameController : MonoBehaviour
 	{
 		SetSadState(true);
 		IsDead = true;
+
 	}
 
 	public void SetSadState(bool value)

@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
+using Fabric;
 using System.Collections;
 using System.Timers;
 
 public class PowerUpController : MonoBehaviour 
 {
 	public GameObject KillZone;
-	public AudioSource audioSource;
 	public Animator animator;
 	public Rigidbody2D rigidBody;
 	public float PowerUpMaxTime = 2f;
@@ -40,7 +40,7 @@ public class PowerUpController : MonoBehaviour
 
 			SetPowerUp(true);
 
-			audioSource.Play();
+			Fabric.EventManager.Instance.PostEvent("MUS/Powerup", Fabric.EventAction.PlaySound, null, gameObject);
 
 			currentTime = PowerUpMaxTime;
 

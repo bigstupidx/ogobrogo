@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Fabric;
 using System.Collections;
 
 public class GameReset : MonoBehaviour 
@@ -24,6 +25,10 @@ public class GameReset : MonoBehaviour
 		{
 			gameController.SetSadState(true);
 			gameController.DisableControls();
+			Fabric.EventManager.Instance.PostEvent("SFX/StopAll", Fabric.EventAction.StopAll, null, gameObject);
+			Fabric.EventManager.Instance.PostEvent("SFX/Die", Fabric.EventAction.PlaySound, null, gameObject);
+			Fabric.EventManager.Instance.PostEvent("MUS/Gameplay", Fabric.EventAction.StopAll, null, gameObject);
+			Fabric.EventManager.Instance.PostEvent("SFX/GameLoseDelayed", Fabric.EventAction.PlaySound, null, gameObject);
 
 			yield return new WaitForSeconds(2.5f);
 

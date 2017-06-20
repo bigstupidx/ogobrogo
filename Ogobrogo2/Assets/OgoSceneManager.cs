@@ -12,24 +12,15 @@ public class OgoSceneManager : MonoBehaviour
 
 	private string currentSceneName;
 
-	private static bool spawned = false;
 	void Awake()
 	{
-		if(spawned == false)
-		{
-			spawned = true;
-			DontDestroyOnLoad(gameObject);
-		}
-		else
-		{
-			DestroyImmediate(gameObject); 
-		}
+		GameObject.DontDestroyOnLoad(this);
 	}
-
 
 	void Start()
 	{
 		LoadScene("Start Screen");
+		Fabric.EventManager.Instance.PostEvent("MUS/StartScreen");
 		StartIdleTimer();
 	}
 
@@ -57,6 +48,7 @@ public class OgoSceneManager : MonoBehaviour
 			if(Input.anyKey)
 			{
 				StopIdleTimer();
+				Fabric.EventManager.Instance.PostEvent("MUS/StartScreen", Fabric.EventAction.StopAll, null, gameObject);
 				LoadScene("GameCharacterAndLayout");
 
 			}
