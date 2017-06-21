@@ -17,6 +17,7 @@ public class PlayerCollisionTrigger : MonoBehaviour
 
 		if(other.gameObject.CompareTag("EndOgo"))
 		{
+			GetComponent<Animator>().SetFloat("Speed", 0f);
 			gameController.OnGameComplete();
 		}
 

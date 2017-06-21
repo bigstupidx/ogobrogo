@@ -4,13 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class OgoSceneManager : MonoBehaviour 
 {
-	public int IdleTimeout = 2;
 
-	// Idle timer
-	private float currentTime = 0;
-	private bool idleTimerRunning = false;
-
-	private string currentSceneName;
+	public ScreenChanger.Screen NextScreen;
 
 	void Awake()
 	{
@@ -19,63 +14,16 @@ public class OgoSceneManager : MonoBehaviour
 
 	void Start()
 	{
-		LoadScene("Start Screen");
-		Fabric.EventManager.Instance.PostEvent("MUS/StartScreen");
-		StartIdleTimer();
+		LoadScene("All Screens", ScreenChanger.Screen.Start);
+		//Fabric.EventManager.Instance.PostEvent("MUS/StartScreen");
 	}
 
-	void Update()
+
+
+	public void LoadScene(string sceneName, ScreenChanger.Screen screen)
 	{
-		if(idleTimerRunning)
-		{
-			currentTime -= Time.deltaTime;
-			int tempTime = Mathf.CeilToInt(currentTime);
-
-			if(tempTime <= 0)
-			{		
-				ResetIdleTimer();
-
-				if(currentSceneName == "Start Screen")
-				{
-					LoadScene("Leaderboard");
-				}
-				else
-				{
-					LoadScene("Start Screen");
-				}
-			}
-
-			if(Input.anyKey)
-			{
-				StopIdleTimer();
-				Fabric.EventManager.Instance.PostEvent("MUS/StartScreen", Fabric.EventAction.StopAll, null, gameObject);
-				LoadScene("GameCharacterAndLayout");
-
-			}
-		}
-	}
-
-	public void ResetIdleTimer()
-	{
-		currentTime = IdleTimeout; 
-	}
-
-	public void StartIdleTimer()
-	{
-		ResetIdleTimer();
-		idleTimerRunning = true;
-	}
-
-	public void StopIdleTimer()
-	{
-		idleTimerRunning = false;
-	}
-
-	public void LoadScene(string sceneName, bool loadAdative = false)
-	{
-		LoadSceneMode sceneMode = loadAdative ? LoadSceneMode.Additive : LoadSceneMode.Single;
-		SceneManager.LoadScene(sceneName, sceneMode); 
-		currentSceneName = sceneName;
+		SceneManager.LoadScene(sceneName, LoadSceneMode.Single); 
+		NextScreen = screen;
 	}
 
 }

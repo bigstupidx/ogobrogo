@@ -11,12 +11,12 @@ public class SceneChanger : MonoBehaviour
 		sceneManager = FindObjectOfType<OgoSceneManager>();
 	}
 
-	void Update()
+	/*void Update()
 	{
 		if(Input.GetKeyDown(KeyCode.Return))
 		{
 			sceneManager.LoadScene(NextScene);
 			sceneManager.StartIdleTimer();
 		}
-	}
+	}*/
 }

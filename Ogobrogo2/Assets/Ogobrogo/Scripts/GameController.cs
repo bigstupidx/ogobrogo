@@ -67,6 +67,8 @@ public class GameController : MonoBehaviour
 
 		TimerText.GetComponentInChildren<Text>().text = "01:00";
 
+		Fabric.EventManager.Instance.PostEvent("MUS/StartScreen", Fabric.EventAction.StopAll, null, gameObject);
+		Fabric.EventManager.Instance.PostEvent("MUS/GameWin", Fabric.EventAction.StopAll, null, gameObject);
 		Fabric.EventManager.Instance.PostEvent("MUS/Gameplay");
 
 		showFinalScore(false);
@@ -90,6 +92,8 @@ public class GameController : MonoBehaviour
 		// stop player interaction
 		isTimerRunning = false; 
 
+		DisableControls();
+
 		remainingTime = Mathf.Ceil(currentTime);
 
 		// apply ExtraTimeMultiplier * remaining time * random variance to score
@@ -112,12 +116,11 @@ public class GameController : MonoBehaviour
 		if(index > -1)
 		{
 			data.SetCurrentHighScore(TotalScore);
-			sceneManager.LoadScene("Success Leaderboard Screen");
+			sceneManager.LoadScene("All Screens", ScreenChanger.Screen.SuccessLeaderboard);
 		}
 		else
 		{
-			sceneManager.LoadScene("Success No Leaderboard Screen");
-			sceneManager.StartIdleTimer();
+			sceneManager.LoadScene("All Screens", ScreenChanger.Screen.SuccessNoLeaderboard);
 		}
 	}
 
@@ -126,13 +129,7 @@ public class GameController : MonoBehaviour
 		Fabric.EventManager.Instance.PostEvent("SFX/StopAll", Fabric.EventAction.StopAll, null, gameObject);
 		Fabric.EventManager.Instance.PostEvent("MUS/Gameplay", Fabric.EventAction.StopAll, null, gameObject);
 		Fabric.EventManager.Instance.PostEvent("SFX/GameLose", Fabric.EventAction.PlaySound, null, gameObject);
-		sceneManager.LoadScene("Time Done Screen");
-		sceneManager.StartIdleTimer();
-	}
-
-	public void OnPlayerReset()
-	{
-		// show the hurry up text
+		sceneManager.LoadScene("All Screens", ScreenChanger.Screen.TimeDone);
 	}
 
 	void Update()
