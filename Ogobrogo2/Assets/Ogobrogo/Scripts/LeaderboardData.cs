@@ -59,6 +59,18 @@ public class LeaderboardData : MonoBehaviour
 	public void SetHighScoreName(string initials)
 	{
 		int index = GetHighScoreindex(currentHighScore);
+
+		for(int i = 2; i >= index; i--)
+		{
+			int j = i - 1;
+
+			if(j >= 0)
+			{
+				highScores[i].Initials = highScores[j].Initials;
+				highScores[i].Score = highScores[j].Score;
+			}
+		}
+
 		highScores[index].Initials = initials;
 		highScores[index].Score = currentHighScore;
 	}
